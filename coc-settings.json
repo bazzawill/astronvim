@@ -1,0 +1,11 @@
+{
+    "cucumber.features": [
+          "cypress/e2e/**/*.feature" 
+            ],
+    "cucumber.glue": [
+          "cypress/e2e/**/*.{js,ts}" 
+            ],
+    "cucumber.stepDefinitions": {
+          "cypress/e2e/**/*.feature": "cypress/e2e/**/*.{js,ts}" 
+                                }
+}
