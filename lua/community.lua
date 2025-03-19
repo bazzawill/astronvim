@@ -11,6 +11,7 @@ return {
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
   { import = "astrocommunity.note-taking.neorg" },
   { import = "astrocommunity.pack.python" },
-  { import = "astrocommunity.pack.typescript-deno" },
+  { import = "astrocommunity.pack.typescript-all-in-one" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
   -- import/override with your plugins folder
 }
